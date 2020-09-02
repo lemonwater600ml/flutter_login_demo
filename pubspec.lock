@@ -102,6 +102,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.4"
+  image_sequence_animator:
+    dependency: "direct main"
+    description:
+      path: image_sequence_animator
+      ref: HEAD
+      resolved-ref: a283f08e2def2247f6b49f80d8947321fff520ed
+      url: "https://github.com/papmodern/flutter-image-sequence-animator.git"
+    source: git
+    version: "1.0.6"
   matcher:
     dependency: transitive
     description:

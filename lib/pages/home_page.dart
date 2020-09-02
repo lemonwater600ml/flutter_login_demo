@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_login_demo/pages/drawer_3d.dart';
 import 'package:flutter_login_demo/services/authentication.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter_login_demo/models/todo.dart';
@@ -236,27 +237,28 @@ class _HomePageState extends State<HomePage> {
             );
           });
     } else {
-      return Center(
-          child: Text(
-        "Welcome. Your list is empty",
-        textAlign: TextAlign.center,
-        style: TextStyle(fontSize: 30.0),
-      ));
+      return Drawer3D();
+      // return Center(
+      //     child: Text(
+      //   "Welcome. Your list is empty",
+      //   textAlign: TextAlign.center,
+      //   style: TextStyle(fontSize: 30.0),
+      // ));
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-        appBar: new AppBar(
-          title: new Text('Flutter login demo'),
-          actions: <Widget>[
-            new FlatButton(
-                child: new Text('Logout',
-                    style: new TextStyle(fontSize: 17.0, color: Colors.white)),
-                onPressed: signOut)
-          ],
-        ),
+        // appBar: new AppBar(
+        //   title: new Text('Flutter login demo'),
+        //   actions: <Widget>[
+        //     new FlatButton(
+        //         child: new Text('Logout',
+        //             style: new TextStyle(fontSize: 17.0, color: Colors.white)),
+        //         onPressed: signOut)
+        //   ],
+        // ),
         body: showTodoList(),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
