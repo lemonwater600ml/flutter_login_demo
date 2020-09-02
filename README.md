@@ -1,13 +1,14 @@
-# flutter_login_demo
+#
 
-A sample Flutter project to show case user login and signup process with Firebase authentication. 
-It also shows how to perform CRUD operations with Firebase Real Time Database using simple todo list application.
+CS 8803 MAS HW1
 
-## Medium
-Do spend sometime to read the article to complement the source code:
+This is a work combining authentication and simulated 3D animation.
 
+
+## You can find original authentication article in
 https://medium.com/flutterpub/flutter-how-to-do-user-login-with-firebase-a6af760b14d5
-https://medium.com/@tattwei46/flutter-how-to-do-crud-with-firebase-rtdb-ce61e3ce53a
+## and find 3D simuation in
+https://www.youtube.com/watch?v=4KB8grp4O-Y 
 
 ## Getting Started
 
