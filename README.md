@@ -7,10 +7,13 @@ This is a work combining authentication and simulated 3D animation.
 
 ## You can find original authentication article in
 https://medium.com/flutterpub/flutter-how-to-do-user-login-with-firebase-a6af760b14d5
-## and find 3D simuation in
+
+## And find 3D simuation in
 https://www.youtube.com/watch?v=4KB8grp4O-Y 
 
-## Getting Started
+## To run this app
+1. Clone the code from https://github.com/lemonwater600ml/firebase_with_flutter.
+2. Open VScode.
+3. Install Flutter SDK, Flutter extension, and Dart extension.
+4. Run.
 
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
